@@ -1,5 +1,12 @@
 <template>
-  <div id="text">{{ text }}</div>
+  <div>
+    <nav>
+      <router-link to="/home">Home</router-link>
+      <router-link to="/about">about</router-link>
+    </nav>
+
+    <router-view />
+  </div>
 </template>
 
 <script>
