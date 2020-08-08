@@ -4,7 +4,10 @@ import router from "./router";
 
 import "./assets/styles/test.css";
 import "./assets/styles/test-stylus.styl";
-// import "./assets/images/bg.jpg";
+
+import Vant from "vant";
+import "vant/lib/index.css";
+Vue.use(Vant);
 
 const root = document.createElement("div");
 document.body.appendChild(root);
